@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Pendaftaran Relawan</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Formulir Pendaftaran</h1>
+	<form id="form-relawan">
+		<!-- Informasi Pribadi -->
+		<h2>Informasi Pribadi</h2>
+		<label>Nama Lengkap:</label>
+		<input type="text" id="nama-lengkap" name="nama-lengkap"><br><br>
+		<label>Tanggal Lahir:</label>
+		<input type="date" id="tanggal-lahir" name="tanggal-lahir"><br><br>
+		<label>Jenis Kelamin:</label>
+		<input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki">
+		<label for="laki-laki">Laki-laki</label>
+		<input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+		<label for="perempuan">Perempuan</label>
+		<input type="radio" id="lainnya" name="jenis-kelamin" value="Lainnya">
+		<label for="lainnya">Lainnya</label><br><br>
+		<label>Alamat:</label>
+		<textarea id="alamat" name="alamat"></textarea><br><br>
+		<label>Nomor Telepon:</label>
+		<input type="text" id="nomor-telepon" name="nomor-telepon"><br><br>
+		<label>Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		
+		<!-- Informasi Pendidikan & Pekerjaan -->
+		<h2>Informasi Pendidikan & Pekerjaan</h2>
+		<label>Pendidikan Terakhir:</label>
+		<input type="text" id="pendidikan-terakhir" name="pendidikan-terakhir"><br><br>
+		<label>Pekerjaan Saat Ini:</label>
+		<input type="text" id="pekerjaan-saat-ini" name="pekerjaan-saat-ini"><br><br>
+		<label>Keahlian & Kompetensi:</label>
+		<textarea id="keahlian-kompetensi" name="keahlian-kompetensi"></textarea><br><br>
+		
+		<!-- Pengalaman & Motivasi -->
+		<h2>Pengalaman & Motivasi</h2>
+		<label>Pernah Menjadi Volunteer?</label>
+		<input type="radio" id="pernah" name="pernah-menjadi-volunteer" value="Pernah">
+		<label for="pernah">Pernah</label>
+		<input type="radio" id="tidak-pernah" name="pernah-menjadi-volunteer" value="Tidak Pernah">
+		<label for="tidak-pernah">Tidak Pernah</label><br><br>
+		<label>Motivasi Bergabung:</label>
+		<textarea id="motivasi-bergabung" name="motivasi-bergabung"></textarea><br><br>
+		<label>Bidang yang Diminati:</label>
+		<select id="bidang-yang-diminati" name="bidang-yang-diminati">
+			<option value="">Pilih Bidang</option>
+			<option value="Edukasi">Edukasi</option>
+			<option value="Sosial">Sosial</option>
+			<option value="Kesehatan">Kesehatan</option>
+			<option value="Lingkungan">Lingkungan</option>
+		</select><br><br>
+		
+		<!-- Ketersediaan Waktu & Lokasi -->
+		<h2>Ketersediaan Waktu & Lokasi</h2>
+		<label>Bersedia Volunteer di Kota Mana?</label>
+		<input type="text" id="kota" name="kota"><br><br>
+		<label>Waktu yang Bisa Disediakan:</label>
+		<input type="text" id="waktu" name="waktu"><br><br>
+		
+		<!-- Persetujuan & Upload Dokumen -->
+		<h2>Persetujuan & Upload Dokumen</h2>
+		<label>Upload CV atau Surat Motivasi (Opsional):</label>
+		<input type="submit"> </button>
+        <form id="form-relawan">
+    
+        <!-- Input formulir -->
+    <button id="tombol-kirim" type="submit">kirim</button>
+  </form>
+</body>
+</html>
